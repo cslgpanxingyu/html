@@ -1,0 +1,19 @@
+body{position: relative;height: auto;min-height: 100%;cursor: default;text-align: center;font-size: 12px;font-family: arial,宋体，sans-serif;margin: 0px;padding: 0px;}
+#Topnav{color: rgb(153,153,153);padding: 4px 10px 5px;border-bottom: 1px solid rgb(240, 240, 240);width: 1339px;height: 20px;}
+#weather{width: 216px;height: 100%;padding: 0px;color: rgb(102,102,102);line-height: 14px;white-space: nowrap;float: left;}
+#weather *{vertical-align: middle;}
+p{font-family: normal;}
+#weather .weather-polution-img a{display:block;color: rgb(255,255,255);background-image: url("../images/bgimage.png");background-position: 0px -136px;background-repeat: no-repeat;background-attachment:line-height: 20px;padding: 2px 8px 4px 6px;text-decoration: none;}
+#myInfo{float: right;width: 380px;height: 20px;}
+#myInfo a{color: rgb(0,0,204px);text-decoration: underline;margin: 0px 5px;}
+.user-name-top{cursor: pointer;line-height: 20px;color: rgb(0,0,204);font-weight: bold;padding-right: 11px;background: url("../images/simage.png");background-repeat: no-repeat;background-attachment: scroll;background-position: right -221px;background-color: transparent;}
+#myInfo a.last{margin-right: 0px;}
+#user-center{font-weight: normal;}
+#m{width: 720px;height: 237px;margin: 25px auto 0px;}
+#logo{margin: 0px 0px 4px;}
+img{border:0px none;}
+#nv{margin: 0px 0px 5px;padding: 2px 0px 0px;text-align: left;text-indent: 72px;}
+#nv b{margin-left: 12px;font-size: 14px;}
+#nv a{color: rgb(0,0,204);text-decoration: underline;font-size: 14px;margin-left: 11px;}
+form{position: relative;}
+#kw{width: 474px;height: 22px; margin: 0px 3px 0px 0px;height: 22px;padding: 4px 7px;font: 16px arial;border-width: 1px;border-style: solid;border-color: rgb(154, 154, 154) rgb(205, 205, 205) rgb(205, 205, 205) rgb(154, 154, 154);vertical-align: top;outline: medium none;}

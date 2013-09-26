@@ -1,0 +1,24 @@
+*{margin: 0px;padding: 0px;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+img{border: 0px;}
+html{height: 100%;height: 100%;overflow-x:hidden;overflow-y:scroll;}
+img{border:0px none;}
+
+body{font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";text-align: center;width: 100%;height: 100%;background: url("http://l.bst.126.net/rsc/img/body.png?021") repeat-x scroll 0% 0% rgb(237,237,239);}
+.p-newrego .head{width: 182px;height: 82px;margin: 20px auto;background: url("http://l.bst.126.net/rsc/img/reg/regnew24.png?001") no-repeat scroll -1px 0px transparent}
+.p-newrego .g-bdwarp{width: 926px;height: 2438px; margin: 0px auto;padding-bottom: 100px;}
+.p-newrego .g-bdreg{height: 2438px; background-color: rgb(255,255,255);overflow: hidden;box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.14);}
+.g-bdwarp .g-right{width: 567px;height: 2296px;padding: 50px 0px 42px 40px;float: left;}
+.g-bdwarp .g-left{height: 2388px;float: right;width: 218px;padding: 50px 30px 0;background-color: rgb(248, 248, 248);border-left: 1px solid rgb(237, 237, 239);text-align: left;}
+.g-right .chosebox{float: left;position: relative;width: 263px;height: 308px;margin: 0px 10px 20px;background-color: rgb(241,241,241);cursor: pointer;box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);}
+.g-right .chosebox img{display: block;width: 263px;height: 263px;box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);}
+.g-right .chosebox .name{display: block;height: 45px;font-size: 20px;color: rgb(135,135,135);line-height: 45px;text-align: center;}
+.g-right .chosebox .icn{visibility: hidden; position: absolute;right: 20px;bottom: 64px;width: 46px;height: 46px;background: url("http://l.bst.126.net/rsc/img/reg/regnew24.png?001") no-repeat scroll -1px -376px transparent;}
+.g-left .ff{height: 24px;font-size: 18px;color: rgb(68,68,68);line-height: 24px;}
+.g-left .info{padding: 12px 0px 20px;color: rgb(136,136,136);font-size: 12px;}
+.g-left .chosenbox{width: 218px;border-width: 1px 1px medium;border-style: solid solid none;border-color: rgb(237, 237, 239) rgb(237, 237, 239);background-color: rgb(255, 255, 255);}
+.g-left .chosenbox .item{display: none; position: relative;height: 50px;font-size: 14px;color: rgb(68,68,68);padding-left: 46px;line-height: 50px;border-bottom: 1px solid;border-bottom-color: rgb(237,237,239); background: url("http://l.bst.126.net/rsc/img/reg/regnew24.png?001") no-repeat scroll 14px -444px transparent;overflow: hidden;}
+.g-left .chosenbox .item img{position: absolute;right: 10px;bottom: 10px;display: block;width: 30px;height: 30px;}
+.g-left .btn{height: 40px;width: 220px;margin-top: 20px;line-height: 40px;text-align: center;color: rgb(255,255,255);text-shadow:-1px -1px 0px rgb(119, 158, 0);background: url("http://l.bst.126.net/rsc/img/reg/regnew24.png?001") no-repeat scroll 0px -505px transparent;border:0px none;font-size: 16px;cursor: pointer;}
+.g-left .btn:hover{background-position: 0px -555px;}

@@ -1,0 +1,69 @@
+*{margin: 0px;padding: 0px;}
+a{text-decoration: none;}
+ul,li{list-style: none;}
+img{border: 0px;}
+body, textarea, select, input, button {font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","微软雅黑",tahoma,arial,simsun,"宋体";}
+
+.logbg{position: absolute;z-index: 2;top: 0px;left: 0px;width: 100%;height: 100%;overflow: hidden;}
+.logbg img{display: block;}
+.g-bdfull2{opacity:1;margin-top:0;transition:0.5s;-webkit-transition:0.5s;-moz-transition:0.5s;-o-transition:0.5s;z-index:1;text-align: left;}
+.p-body{background: none repeat scroll 0% 0% transparent;}
+.logbg2{z-index: 1;}
+#stwrap{position: absolute;z-index: 10;left: 0px;top: 40%;margin: -131px auto 0px;width: 100%;}
+#stwrap .logo{width: 427px;margin: 0px auto 55px;}
+#stwrap .logo .f1{height: 133px;text-indent: -9999px;background: url("http://l.bst.126.net/rsc/img/loginopen/login-24.png?01") no-repeat -3px 0;*background:none;font-weight:normal;font-weight: normal;}
+#stwrap .logo .f2{width:450px;color:#fff;font-size:22px;letter-spacing:12px;text-shadow:0 1px 1px rgba(0,0,0,0.6);font-weight:normal;}
+#stwrap .logo .f3{display: inline;letter-spacing: 8px;}
+.m-userlnks{margin: 0px auto;width: 618px;z-index: 2;}
+.m-userlnks .login{color: rgb(255,255,255);text-shadow:0px 1px 1px rgb(0, 0, 0);background: -moz-linear-gradient(center top , rgb(44, 44, 44) 0%, rgb(34, 34, 34) 100%) repeat scroll 0% 0% transparent;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 2px rgba(255, 255, 255, 0.1) inset;}
+.m-userlnks a{width: 184px;padding-left: 8px;display: block;float: left;margin: 0px 7px;height: 52px;font-size: 21px;letter-spacing: 8px;text-align: center;line-height: 52px;border: 2px 2px 2px 2px;}
+.m-userlnks .reg{color: rgb(255,255,255);text-shadow:0px 1px 1px rgb(0, 0, 0);background: -moz-linear-gradient(center top , rgb(44, 44, 44) 0%, rgb(34, 34, 34) 100%) repeat scroll 0% 0% transparent;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 2px rgba(255, 255, 255, 0.1) inset;}
+.m-userlnks .review{color: rgb(51, 51, 51);text-shadow:0px 1px 1px rgb(255, 255, 255);background: -moz-linear-gradient(center top , rgb(231, 231, 231) 0%, rgb(223, 223, 223) 100%) repeat scroll 0% 0% transparent;box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 2px rgba(255, 255, 255, 0.5) inset;}
+.g-bdfull2 .g-ft1{text-align: center;}
+.g-ft1{width: 100%;height: 30px;color: rgb(90, 93, 95);position: absolute;z-index: 8;bottom: 0px;}
+.m-logbm{font-size: 12px; left: 0px;margin: 0px;text-shadow:-1px 1px 1px rgba(0, 0, 0, 0.6);opacity: 0.6;height: 30px;width: 100%;position: absolute;top: 0px;}
+.m-logbm .logbm1{float: left;width: 680px;margin-left: 20px;text-align: left;}
+.m-logbm .logbm2{float: right;width: 300px;margin-left: 20px;}
+.m-logbm span{color: rgb(204, 204, 204)}
+.m-logbm .logbm1 a{padding: 0px 5px;color: rgb(204, 204, 204)}
+.m-logbm .by b{float: none;width: auto;font-weight: normal;white-space: nowrap;overflow: hidden;}
+.m-logbm .by{margin-right: 10px; text-align: right;width: 240px;overflow: hidden;white-space: nowrap;}
+.m-logbm .itm{color: rgb(204, 204, 204);position: relative;z-index: 3;float: left;} 
+.m-logom .prv{float: left;width: 19px;height: 19px;margin:0px 3px;overflow:hidden;text-indent: -2000px; background-position: -395px -200px;background: url("http://l.bst.126.net/rsc/img/loginopen/login-24.png?01") no-repeat scroll 0% 0% transparent;}
+.m-logbm .nxt{background-position: -419px -200px;background: url("http://l.bst.126.net/rsc/img/loginopen/login-24.png?01") no-repeat scroll 0% 0% transparent;float: left;width: 19px;height: 19px;margin:0px 3px;overflow:hidden;text-indent: -2000px;}
+.m-login{position: absolute;left: 0px;top: 154px;margin-top: 20px;width: 100%;z-index:1; }
+.arr span{display: inline-block;left: 34%; position: relative;top: 2px;width: 36px;height: 17px; background: url("http://l.bst.126.net/rsc/img/loginopen/login-24.png?01") no-repeat scroll 0% 0% transparent;background-position: -404px -290px;}
+.m-login .cont{width: 100%;height: 600px;background: none repeat scroll 0% 0% rgb(255, 255, 255);color: rgb(136, 136, 136);position: absolute;}
+.m-login .contc{width: 604px;padding:35px 0px 100px;margin: 0px auto;}
+.m-login .msg{margin: 5px 0px 20px;padding: 6px 17px;background: none repeat scroll 0% 0% rgb(253, 248, 196);line-height: 20px;color: rgb(68, 68, 68);}
+.m-login .chkbox{position: relative;display: inline-block;padding-left: 24px;margin-right: 16px;font-size: 14px;}
+.logoT{z-index: 2;}
+.logbg .bgshadow{position: absolute;left: 0px;bottom: 0px;display: block;width: 100%;height: 200px;background: -moz-linear-gradient(center top , transparent 0%, rgba(0, 0, 0, 0.2) 100%) repeat scroll 0% 0% transparent}
+.m-login .contl{float: left;width: 332px;}
+.m-login h3{margin: 0px 0px 18px;font-weight: normal;font-size: 12px;}
+.w-user .inpt{position: relative;padding: 9px 16px;border: 1px solid rgb(215,215,215);box-shadow: 0px 0px 1px rgba(0,0,0,0.15)inset;width: 298px;height: 22px;font-size: 16px;line-height: 22px;}
+.w-user .txt{border: 0px none;outline: medium none;color: rgb(68,68,68);position: absolute;left: 16px;top: 9px;width: 298px;height: 22px;font-size: 16px;line-height: 22px;background: url("http://l.bst.126.net/rsc/img/empty.png?020") repeat scroll 0% 0% transparent}
+.w-user .w0{margin: 0px 0px 15px;}
+.w-user label{color: rgb(170,170,170);position: absolute;left: 16px;top: 9px;}
+.w-user .txtlist{position: absolute;z-index: 10;left: -1px;top: 40px;padding: 1px 0px;width: 330px;border: 1px solid rgb(215,215,215);background: none repeat scroll 0% 0% rgb(255, 255, 255);font-size: 14px;line-height: 32px;}
+.w-user .w2{text-align: center;}
+.m-login .chkbox input{visibility: hidden;}
+.m-login .chkbox .j-ok{background-position: -110px -667px;}
+.m-login .chkbox .c{position: absolute;top: 0px;left: 0px;width: 16px;height: 16px;background: url("http://l.bst.126.net/rsc/img/loginopen/login-24.png?014") no-repeat scroll 0% 0% transparent;background-position: -84px -667px;}
+.w-user .w3 a{color: rgb(136,136,136);font-size: 12px;}
+.w-user-1 .fgt{float: right;}
+.m-login .contr{float: right;width: 190px;}
+.m-login .others{position: relative;float: right;}
+.m-login .sepln{position: absolute;left: -41px;top: 0px;display: block;height: 100%;width: 1px;background: none repeat scroll 0% 0% rgb(231, 231, 231);}
+.m-login .septxt{position: absolute;left: -41px;top: 50px;margin: -8px 0px 0px -6px;display: block;width: 20px;height: 20px;background: none repeat scroll 0% 0% rgb(255, 255, 255);color: rgb(170, 170, 170);font-size: 12px;}
+.w-user-3 .sina a{background-position: -1px -505px;}
+.w-user-3 a,.w-user-3 a:hover{display: inline-block;width: 135px;height: 40px;padding: 0px 0px 0px 55px;margin: 0px 0px 15px;color: rgb(255,255,255);font-size: 14px;line-height: 40px;}
+.w-user-3 a{background: url("http://l.bst.126.net/rsc/img/loginopen/login-24.png?014") no-repeat scroll 0% 0% transparent;}
+.w-user-3 .qq a{background-position: -1px -559px;}
+.w-user-3 .rr a{background-position: -1px -614px;}
+.w-user .btn{width: 332px;padding-left: 14px;height: 40px;border: 0px none;background: -moz-linear-gradient(center top , rgb(132, 175, 0) 0%, rgb(121, 162, 0) 100%) repeat scroll 0% 0% transparent;border-radius: 2px 2px 2px 2px;line-height: 40px;text-align: center;}
+.w-user .btn span{font-size: 20px;display: block;letter-spacing: 3px;color: rgb(255,255,255);text-shadow:0px 1px 0px rgba(117, 155, 0, 0.65);}
+.w-user-2 .w4 .txt{width: :150px;}
+.w-user .validt{position: absolute;right: 0px;top: 0px;width: 124px;height: 40px;line-height: 40px;}
+.w-user .validt img{vertical-align: 1px;}
+.w-user .validt .icn{display: inline-block; width: 38px;height: 40px;border-left: 1px solid rgb(215,215,215);background: url("http://l.bst.126.net/rsc/img/loginopen/login-24.png?014") no-repeat scroll -174px -656px transparent;position: absolute;right: 0px;}
