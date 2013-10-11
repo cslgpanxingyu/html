@@ -6,6 +6,7 @@
 		<script type="text/javascript" src="js/index.js"></script>
 </head>
 	<body>
+		<div id="effect"></div>
 		<div id="Topnav">
 			<div id="weather">
 				<span style="">南京：</span>
@@ -30,16 +31,16 @@
 				<a href="#" class="user-name-top">
 					1205884593
 				</a>
-				<a href="#">
+				<a href="#" style="color:rgb(0,0,204);">
 					十级
 				</a>|
 				<a href="#" id="user-center" class="user-name-top">
 					个人中心
 				</a>|
-				<a href="#">
+				<a href="#" style="color:rgb(0,0,204);">
 					搜索设置
 				</a>|
-				<a href="#" class="last">
+				<a href="#" class="last" style="color:rgb(0,0,204);">
 					传统首页
 				</a>
 			</div>
@@ -64,9 +65,384 @@
 
 			</p>
 			<div id="s_fm">
-				<form id="s_ps_form">
-					<input id="kw" style="width:474px;"></input>
-				</form>
+				<div id="s_ps_form">
+					<input id="kw" style="width:490px;height:32px;padding:4px 7px;" maxlength = "100" type="text"></input>
+					<span id="btn_wr">
+						<input id="baiduclick" value="百度一下"></input>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div id="mainmenu">
+			<div id="s-main">
+				<div id="s-nav">
+					<div id="s-nav-titlebar">
+						<a href="#" id="s-nav-close"></a>
+						<a href="#" id="s-nav-view">
+							<b>编辑</b>
+							<em>
+							</em>
+						</a>
+						<a href="#" id="s-nav-add">
+							<span>
+								添加
+							</span>
+						</a>
+						<span id="s-nav-title">我的导航</span>
+						<div class="s-nav-bg"></div>
+					</div>
+				</div>
+				<div id="s-mynews">
+					<div id="s-mynews-titlebar">
+						<span id="s-mynews-title">我的新闻</span>
+						<a href="#" class="s-mynews-tab s-mynews-hot" class=>热点</a>
+						<span id="shu" class="s-mynews-tab">|</span>
+						<a href="#" class="s-mynews-tab fourite">猜你喜欢</a>
+						<a href="#" id="s-mynews-close"></a>
+						<div class="s-nav-bg"></div>
+					</div>
+
+					<div class="s-mynews-container"></div>
+				</div>
+				<div id="music">
+					<div class="m-left" style="float:left;padding-right:10px;width:400px;padding-top:10px;">
+						<div class="m-mod">
+							<h5 class="m-title" style="margin:0px;">
+								<span id="m-ico" style="display:inline-block;padding-top:5px;">
+									<a href="#" id="radio"></a>
+								</span>
+								<span id="channel">
+									<a href="#" id="radom">随便听听</a>[
+									<a href="###" id="change" openflag = "no">换台</a>]
+								</span>
+								<a href="#" id="jump-link"></a>
+								<a href="#" id="m-close"></a>
+								<div id="t-bg"></div>
+							</h5>
+							<div id="pk-content" style="min-height:70px;background-color:rgb(255,255,255);">
+								<div id="baidu-m">
+									<div class="fm-wrap" style="height:410px;width:396px;position:absolute;top:-205px;left:0px;">
+										<div id="change-panel">
+											<div id="change-fm" style="width:100%;height:100%;">
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+												<a href="#" class="fm-list"></a>
+											</div>
+										</div>
+										<div id="fm-panel">
+											 <div id="play-panel">
+											 	<div class="music-info">
+											 		<span id="state"></span>
+											 		<span id="s-name">
+											 			<a href="#" id="name">放手去爱</a>
+											 		</span>
+											 		<span id="s-author">
+											 			<a href="#" id="author">迪克牛仔</a>
+											 		</span>
+											 	</div>
+											 	<div class="music-ctrl">
+											 		<ul>
+											 			<li class="ctrl-btn">
+											 				<a href="#" id="play-btn"></a>
+											 			</li>
+											 			<li class="ctrl-btn">
+											 				<a href="#" id="love-btn"></a>
+											 			</li>
+											 			<li class="ctrl-btn">
+											 				<a href="#" id="hate-btn"></a>
+											 			</li>
+											 			<li class="ctrl-btn">
+											 				<a href="#" id="next-btn"></a>
+											 			</li>
+											 		</ul>
+											 	</div>
+											 	<div class="volume-ctrl">
+											 		<a class="mute" href="#"></a>
+											 		<div class="volume-panel">
+											 			<div class="slider"></div>
+											 			<a href="#" class="handle"></a>
+											 		</div>
+											 	</div>
+											 </div>
+											 <div class="lrc-panel">
+											 	<div class="lrc-head">
+											 		<div class="left"></div>
+											 		<div class="right"></div>
+											 	</div>
+											 	<div class="lrc-wrap">
+
+											 	</div>
+											 	<div class="lrc-info">
+
+											 	</div>
+											 	<div class="lrc-cover"></div>
+											 </div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div id="s-seth">
+					<a href="#">把百度设为主页</a>
+				</div>
+				<div id="bottom-line1">
+					<a href="#">加入百度推广</a>|
+					<a href="#">搜索风云榜</a>|
+					<a href="#">关于百度</a>|
+					<a href="#">About Baidu</a>|
+					<a href="#">加入开放首页</a>
+				</div>
+				<div id="bottom-line2">
+					©2013 Baidu
+					<a href="#">使用百度前必读</a>
+					<span >京ICP证030173号
+					</span>
+					<span class="copyright"></span>
+				</div>
+			</div>
+		</div>
+		<div id="s-bg-layer">
+			<div id="layer-content">
+				<div class="s-bg-title">
+					<em>轻松换肤，你的首页最出“色”</em>
+					<span class="s-bg-ajust-container">
+						<span class="ajust-words">设置模块透明度：
+							<span style="color:#7B7B7B">透明</span>
+						</span>
+						<span class="s-bg-ajust-bar">
+							<span class="s-bg-ajust-btn" id="s_bg_ajust_btn">
+								<em>20%</em>
+							</span>
+						</span>
+					    <span class="ajust-words">
+					    	<span style="color:#7B7B7B">不透明</span>
+					    </span>
+					</span>
+
+				</div>
+				<div class="s-bg-wraper">
+					<div class="s-bg-noimg">
+						<div id="nopic"></div>
+					</div>
+					<div class="s-imgs">
+						<ul class="s-bg-allimgs" style="margin-left:0px;">
+							<li data-index="1">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="2">
+								<img width="120" height="60" src="bgimages/bg2.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="3">
+								<img width="120" height="60" src="bgimages/bg3.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="4">
+								<img width="120" height="60" src="bgimages/bg4.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="5">
+								<img width="120" height="60" src="bgimages/bg5.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="6">
+								<img width="120" height="60" src="bgimages/bg6.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="7">
+								<img width="120" height="60" src="bgimages/bg7.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="8">
+								<img width="120" height="60" src="bgimages/bg8.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="9">
+								<img width="120" height="60" src="bgimages/bg9.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="10">
+								<img width="120" height="60" src="bgimages/bg10.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="11">
+								<img width="120" height="60" src="bgimages/bg11.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="12">
+								<img width="120" height="60" src="bgimages/bg12.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="13">
+								<img width="120" height="60" src="bgimages/bg13.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="14">
+								<img width="120" height="60" src="bgimages/bg14.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="15">
+								<img width="120" height="60" src="bgimages/bg15.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="16">
+								<img width="120" height="60" src="bgimages/bg16.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="17">
+								<img width="120" height="60" src="bgimages/bg17.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="18">
+								<img width="120" height="60" src="bgimages/bg18.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="19">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="20">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="21">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="22">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="23">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="24">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="25">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="26">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="27">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="28">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="29">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+							<li data-index="30">
+								<img width="120" height="60" src="bgimages/bg-1.jpg">
+								<div class="img-name">来自:全景图片</div>
+								<div class="add-tag"></div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="s-bg-left">
+					<a href="###" title="上一页" id="pre-pg"></a>
+				</div>
+				<div class="s-bg-right">
+					<a href="###" title="下一页" id="nxt-pg"></a>
+				</div>
+			</div>
+			<div id="s-bg-close"></div>
+		</div>
+		<div id="s-bg-entrance">
+			<a href="#"></a>
+		</div>
+		<div id="s-menu">
+
+			<a href="###" class="item add" openflag = "no"></a>
+			<a href="#" class="item advice"></a>
+			<a href="#" class="item back"></a>
+			<div id="s-menu-addpnl" >
+				<div id="s-addlayer">
+					<div id="layer-head"></div>
+					<div class="s-row s-row-recommend">
+						<div class="caption"></div>
+					</div>
+					<div class="s-row s-row-sport">
+						<div class="caption"></div>
+					</div>
+					<div class="s-row s-row-lottery">
+						<div class="caption"></div>
+					</div>
+					<div class="s-row s-row-xingzuo">
+						<div class="caption" style="background-repeat:repeat-x;width:100%"></div>
+					</div>
+				</div>
 			</div>
 		</div>
 	</body>

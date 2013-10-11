@@ -9,9 +9,9 @@ body{font-family: "Hiragino Sans GB","Hiragino Sans GB W3","Microsoft YaHei","å¾
 .p-newrego .head{width: 182px;height: 82px;margin: 20px auto;background: url("http://l.bst.126.net/rsc/img/reg/regnew24.png?001") no-repeat scroll -1px 0px transparent}
 .p-newrego .g-bdwarp{width: 926px;height: 2438px; margin: 0px auto;padding-bottom: 100px;}
 .p-newrego .g-bdreg{height: 2438px; background-color: rgb(255,255,255);overflow: hidden;box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.14);}
-.g-bdwarp .g-right{width: 567px;height: 2296px;padding: 50px 0px 42px 40px;float: left;}
+.g-bdwarp .g-right{position: relative; width: 567px;height: 2296px;padding: 50px 0px 42px 40px;float: left;}
 .g-bdwarp .g-left{height: 2388px;float: right;width: 218px;padding: 50px 30px 0;background-color: rgb(248, 248, 248);border-left: 1px solid rgb(237, 237, 239);text-align: left;}
-.g-right .chosebox{float: left;position: relative;width: 263px;height: 308px;margin: 0px 10px 20px;background-color: rgb(241,241,241);cursor: pointer;box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);}
+.g-right .chosebox{position: relative;float: left; width: 263px;height: 308px;margin: 0px 10px 20px;background-color: rgb(241,241,241);cursor: pointer;box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);}
 .g-right .chosebox img{display: block;width: 263px;height: 263px;box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);}
 .g-right .chosebox .name{display: block;height: 45px;font-size: 20px;color: rgb(135,135,135);line-height: 45px;text-align: center;}
 .g-right .chosebox .icn{visibility: hidden; position: absolute;right: 20px;bottom: 64px;width: 46px;height: 46px;background: url("http://l.bst.126.net/rsc/img/reg/regnew24.png?001") no-repeat scroll -1px -376px transparent;}

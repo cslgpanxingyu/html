@@ -4,7 +4,6 @@ $(function(){
 });
 
 function toTop(){
-	alert('ddddddddddddddddddddd');
 	var flag = 0;
 	var fflag = 0;
 		$("#logoT").click(function(){
